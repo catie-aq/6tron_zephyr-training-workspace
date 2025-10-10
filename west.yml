@@ -38,5 +38,5 @@ manifest:
     - name: hello_world
       remote: catie-6tron
       repo-path: 6tron_zephyr-training-hello
-      revision: b022b222decab834e90460cc0795ab668b073c38
+      revision: 9af8f27e49dea75c33cafd27cc95f01a8c8e275c
       path: applications/hello_world
