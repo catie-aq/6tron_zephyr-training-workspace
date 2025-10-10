@@ -24,11 +24,13 @@ manifest:
           - segger
 
     - name: 6tron_connector
+      remote: catie-6tron
       repo-path: zephyr_6tron-connector
       revision: 7796488103213b53db64830809c55ba2e34016e1
       path: 6tron/6tron_connector
 
     - name: zest_core_fmlr-72
+      remote: catie-6tron
       repo-path: zephyr_zest-core-fmlr-72
       revision: f491466c3eccc1942e5a7aca2ba922fc9330d78f
       path: 6tron/boards/zest_core_fmlr-72
