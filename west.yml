@@ -1,0 +1,34 @@
+# Copyright (c) 2023 CATIE
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  self:
+    path: 6tron-project
+
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: catie-6tron
+      url-base: https://github.com/catie-aq
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v4.2.0
+      import:
+        name-allowlist:
+          - cmsis
+          - cmsis_6
+          - hal_stm32
+          - loramac-node
+          - segger
+
+    - name: 6tron_connector
+      repo-path: zephyr_6tron-connector
+      revision: 7796488103213b53db64830809c55ba2e34016e1
+      path: 6tron/6tron_connector
+
+    - name: zest_core_fmlr-72
+      repo-path: zephyr_zest-core-fmlr-72
+      revision: f491466c3eccc1942e5a7aca2ba922fc9330d78f
+      path: 6tron/boards/zest_core_fmlr-72
