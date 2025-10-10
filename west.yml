@@ -34,3 +34,9 @@ manifest:
       repo-path: zephyr_zest-core-fmlr-72
       revision: f491466c3eccc1942e5a7aca2ba922fc9330d78f
       path: 6tron/boards/zest_core_fmlr-72
+
+    - name: hello_world
+      remote: catie-6tron
+      repo-path: 6tron_zephyr-training-hello
+      revision: b022b222decab834e90460cc0795ab668b073c38
+      path: applications/hello_world
